@@ -1,12 +1,12 @@
 {
   "name": "tags",
-  "version": "1.11.1",
+  "version": "1.11.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preversion": "./bin/preversion",
-    "postversion": "git push origin && git push origin v$npm_package_version",
+    "postversion": "git push origin && git push origin $npm_package_version",
     "print": "node -p \"require('./package.json').version\""
   },
   "author": "",
