@@ -1,11 +1,11 @@
 {
   "name": "tags",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preversion": "npm run print",
+    "preversion": "npm run print -s",
     "print": "node -p \"require('./package.json').version\""
   },
   "author": "",
