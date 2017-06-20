@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preversion": "./bin/preversion",
-    "postversion": "echo $npm_package_version",
+    "postversion": "git push upstream && git push upstream v$npm_package_version",
     "print": "node -p \"require('./package.json').version\""
   },
   "author": "",
