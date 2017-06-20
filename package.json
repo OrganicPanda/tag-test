@@ -1,11 +1,11 @@
 {
   "name": "tags",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preversion": "node -p \"console.log(`https://github.com/Pure360/frontend/compare/v${require('./package.json').version}...v${process.env.npm_package_version}`)\"",
+    "preversion": "./bin/preversion",
     "print": "node -p \"require('./package.json').version\""
   },
   "author": "",
