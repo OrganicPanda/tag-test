@@ -1,6 +1,6 @@
 {
   "name": "tags",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,5 +9,6 @@
     "print": "node -p \"require('./package.json').version\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": "OrganicPanda/tag-test"
 }
